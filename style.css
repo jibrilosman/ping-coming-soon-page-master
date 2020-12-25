@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-
     width: 100%;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
@@ -58,6 +57,7 @@ input {
     border: 1px solid hsl(223, 100%, 88%);
     outline-style: none;
 }
+
 #submit {
     display: block;
     width: 220px;
@@ -70,6 +70,7 @@ input {
     margin-top: 10px;
     margin-bottom: 50px;
     box-shadow: -13px 5px 20px hsla(223, 100%, 88%, 0.52);
+    cursor: pointer;
 }
 #submit:active{
     background-color: hsl(223, 100%, 88%);
@@ -91,6 +92,11 @@ input {
     }
     .header-img img {
         width: 350px;
+    }
+    #error-msg {
+        position: absolute;
+        top: 34%;
+        left: 36%;
     }
    
 }
